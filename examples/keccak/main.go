@@ -284,7 +284,7 @@ func copyOutUnaligned(api frontend.API, s [][]frontend.Variable, rate, outputLen
 			}
 		}
 	}
-	return out
+	return  nruter
 }
 
 type keccak256Circuit struct {
